@@ -31,7 +31,7 @@ NUM_USERS.times do
         email: "#{first_name}.#{last_name}@example.com",
         password: PASSWORD
         
-    )
+    )  
 end
 users=User.all
 
